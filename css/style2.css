@@ -1,0 +1,263 @@
+/* side */
+#mySidenav a {
+    position: fixed;
+    left: -92px;
+    transition: 0.3s;
+    padding: 17px;
+    width: 138px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 0 60px 60px 0;
+    z-index: 100;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  
+  }
+  
+  #facebook {
+    top: 200px;
+    background-color: #2196F3;
+  }
+  
+  #youtube {
+    top: 265px;
+    background-color: #f44336;
+  }
+  
+  #instagram {
+    top: 327px;
+    background-color: #ff5e00;
+  }
+  
+  #tiktok {
+    top: 390px;
+    background-color: #555
+  }
+  .icon-tab{
+      font-family: boxicons!important;
+      font-weight: 400;
+      font-style: normal;
+      font-variant: normal;
+      line-height: 1;
+      text-rendering: auto;
+      display: inline-block;
+      text-transform: none;
+      speak: none;
+      -webkit-font-smoothing: antialiased;
+  }
+  
+  #mySidenav i{
+      position: absolute;
+      left: 78px;
+      transition: 0.3s;
+      padding: 12px;
+      width: 100px;
+      text-decoration: none;
+      font-size: 40px;
+      color: white;
+      border-radius: 0 5px 5px 0;
+      z-index: 4;
+      top: -4px;
+  }
+  /* end side */
+  
+  /*chat*/
+  .open-button {
+      color: white;
+      padding: 0px 0px;
+      border: none;
+      cursor: pointer;
+      opacity: 0.2;
+      position: fixed;
+      bottom: 159px;
+      right: 80px;
+      width: 80px;
+      height: 80px;
+      z-index: 5;
+      border-radius: 4px;
+      background: border-box;
+    }
+    
+    /* The popup chat - hidden by default */
+    .chat-popup {
+      display: none;
+      position: fixed;
+      bottom: 160px;
+      right: 21px;
+      border: 3px solid #3f3f3f;
+      z-index: 9;
+      opacity: 0.7;
+    }
+    
+    /* Add styles to the form container */
+    .form-container {
+      max-width: 270px;
+      padding: 10px;
+      background-color: white;
+    }
+    
+    /* Full-width textarea */
+    .form-container textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background: #f1f1f1;
+      resize: none;
+      min-height: 200px;
+    }
+    
+    /* When the textarea gets focus, do something */
+    .form-container textarea:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    
+    /* Set a style for the submit/send button */
+    .form-container .btn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      margin-bottom:10px;
+      opacity: 0.8;
+    }
+    
+    /* Add a red background color to the cancel button */
+    .form-container .cancel {
+      background-color: red;
+    }
+    
+    /* Add some hover effects to buttons */
+    .form-container .btn:hover, .open-button:hover {
+      opacity: 1;
+    }
+    h2{
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+    }
+    b{
+   font-size:15px ;
+   color: rgb(0, 0, 0);
+    }
+    /*code job*/
+    .float-ck { position: fixed; bottom: 30px; z-index: 9000; opacity: 0.7;}
+  * html .float-ck {position:absolute;bottom:auto;top:expression(eval (document.documentElement.scrollTop+document.docum entElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))) ;}
+  #float_content_right {border: 3px solid #000000;}
+  #hide_float_right {text-align:right; font-size: 11px;}
+  #hide_float_right a {background: #000000; padding: 2px 4px; color: #FFF;}
+    /*end code job*/
+    .off-job{
+      position: absolute;
+      top: 180px;
+      right: 250px;
+      width: 36px;
+      height: 36px;
+      cursor: pointer;
+      z-index: 8040;
+    }
+  .home-background{
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      left: 0px;
+      position: fixed;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      place-content: center;
+      -webkit-box-pack: center;
+      z-index: 9000;
+  }
+  /* side */
+#mySidenav a {
+    position: fixed;
+    left: -92px;
+    transition: 0.3s;
+    padding: 17px;
+    width: 138px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 0 60px 60px 0;
+    z-index: 100;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  
+  }
+  
+  #facebook {
+    top: 200px;
+    background-color: #2196F3;
+  }
+  
+  #youtube {
+    top: 265px;
+    background-color: #f44336;
+  }
+  
+  #instagram {
+    top: 327px;
+    background-color: #ff5e00;
+  }
+  
+  #tiktok {
+    top: 390px;
+    background-color: #555
+  }
+  .icon-tab{
+      font-family: boxicons!important;
+      font-weight: 400;
+      font-style: normal;
+      font-variant: normal;
+      line-height: 1;
+      text-rendering: auto;
+      display: inline-block;
+      text-transform: none;
+      speak: none;
+      -webkit-font-smoothing: antialiased;
+  }
+  
+  #mySidenav i{
+      position: absolute;
+      left: 78px;
+      transition: 0.3s;
+      padding: 12px;
+      width: 100px;
+      text-decoration: none;
+      font-size: 40px;
+      color: white;
+      border-radius: 0 5px 5px 0;
+      z-index: 4;
+      top: -4px;
+  }
+  /* end side */
+  
+  /*chat*/
+  .open-button {
+      color: white;
+      padding: 0px 0px;
+      border: none;
+      cursor: pointer;
+      opacity: 0.2;
+      position: fixed;
+      bottom: 159px;
+      right: 80px;
+      width: 80px;
+      height: 80px;
+      z-index: 5;
+      border-radius: 4px;
+      background: border-box;
+    }
+    
+    .marquee{
+      font-size: 20px;
+    }
